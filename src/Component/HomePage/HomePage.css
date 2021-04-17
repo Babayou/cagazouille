@@ -1,0 +1,73 @@
+/* body {
+  background-color: black;
+  padding: 20px 0 0 50px;
+}
+
+h1,
+h2 {
+  color: rgba(255, 255, 255, 0.9);
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2em;
+}
+
+.twitterLogo {
+  width: 50px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  width: 350px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1em;
+}
+.btnInscription {
+  background-color: rgb(26, 144, 218);
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+.btnInscription:hover {
+  background-color: rgba(26, 144, 218, 0.904);
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.btnConnection {
+  border: 1px solid rgb(26, 144, 218);
+  background-color: black;
+  color: rgb(26, 144, 218);
+  transition: 0.2s;
+}
+.btnConnection:hover {
+  background-color: rgba(26, 144, 218, 0.219);
+}
+
+.connectionMain {
+  width: 33%;
+  margin: auto;
+}
+
+input.btnConnection {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.inputConnection {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.904);
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: black;
+} */
