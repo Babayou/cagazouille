@@ -3,11 +3,15 @@ import "./HomePage.css";
 import { ImTwitter } from "react-icons/im";
 
 export default class HomePage extends Component {
+  ///////////////////////////////////////////// state///////////////////////////////////////////
+
   state = {
     page: "accueil",
     pseudo: "",
     password: "",
   };
+
+  ///////////////////////////////////////////// Methodes ///////////////////////////////////////////
 
   handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,6 +27,8 @@ export default class HomePage extends Component {
   connection = () => {
     this.setState({ page: "connection" });
   };
+
+  ///////////////////////////////////////////// render ///////////////////////////////////////////
 
   render() {
     if (this.state.page === "accueil") {

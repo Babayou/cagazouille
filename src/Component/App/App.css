@@ -1,3 +1,5 @@
+/* CSS à réorganiser et commenter, manque de temps */
+
 body {
   background-color: black;
   padding: 20px 0 0 50px;
@@ -64,6 +66,32 @@ input.btnConnection {
 
 .inputConnection {
   width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.904);
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.btnTweet {
+  width: 350px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  border: 1px solid rgb(26, 144, 218);
+  background-color: black;
+  color: rgb(26, 144, 218);
+  transition: 0.2s;
+}
+.btnTweet:hover {
+  background-color: rgba(26, 144, 218, 0.219);
+}
+
+.inputTweet {
+  width: 200px;
   padding: 20px;
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.904);

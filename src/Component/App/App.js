@@ -6,6 +6,9 @@ import Form from "../Form/Form";
 import Tweet from "../Tweet/Tweet";
 
 export default class App extends Component {
+  ////////////////////////////////////////// state ////////////////////////////////////////////////////
+  /* contient les tweet de l'utilisateur connecté, le tableu des utilisateurs qui se sont inscrit, pour l'instant, inscription non fonctionelle */
+  /* userLogged permet aussi d'afficher la page tweet lorsqu'il n'est pas une string vide */
   state = {
     userLogged: {
       pseudo: "",
@@ -14,6 +17,9 @@ export default class App extends Component {
     users: [{ pseudo: "admin", password: "admin", tweets: [] }],
   };
 
+  ////////////////////////////////////////// methode ////////////////////////////////////////////////////
+
+  /* -----------------------------------------------------HomePage */
   logIn = (connectionInfo) => {
     const findUser = this.state.users.find(
       (user) =>
@@ -27,9 +33,12 @@ export default class App extends Component {
     }
   };
 
+  /* ----------------------------------------------------- Tweet */
+
   addTweet = (tweet) => {
     this.changeTweets([...this.state.userLogged.tweets, { desc: tweet }]);
   };
+
   changeTweets = (tweet) => {
     const { userLogged } = this.state;
 
@@ -48,6 +57,8 @@ export default class App extends Component {
       users: usersCopy,
     });
   };
+
+  ////////////////////////////////////////// Render ////////////////////////////////////////////////////
 
   render() {
     console.log(this.state.userLogged);
